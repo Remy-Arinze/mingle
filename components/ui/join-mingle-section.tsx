@@ -62,7 +62,9 @@ export function JoinMingleSection() {
           {/* Social Media Icons */}
           <div className="flex items-center justify-center space-x-6">
             <a
-              href="#"
+              href="https://x.com/MetaMingle1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white hover:bg-accent-purple/20 hover:border-accent-purple transition duration-300"
               aria-label="Follow us on X (Twitter)"
             >

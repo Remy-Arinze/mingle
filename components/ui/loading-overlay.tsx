@@ -14,7 +14,7 @@ export function LoadingOverlay() {
       setTimeout(() => {
         setShouldRender(false);
       }, 500); // Match animation duration
-    }, 3000); // 3 seconds
+    }, 5000); // 3 seconds
 
     return () => clearTimeout(timer);
   }, []);
