@@ -8,6 +8,7 @@ import { HeroContent } from './hero-content';
 import { ScreenshotSection } from './screenshot-section';
 import { EventsGallerySection } from './events-gallery-section';
 import { UpcomingEventsSection } from './upcoming-events-section';
+import { JoinMingleSection } from './join-mingle-section';
 import { Footer } from './footer';
 
 export const HeroSection = () => {
@@ -58,6 +59,7 @@ export const HeroSection = () => {
 
       <EventsGallerySection />
       <UpcomingEventsSection />
+      <JoinMingleSection />
       <Footer />
     </div>
   );
