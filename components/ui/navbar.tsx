@@ -102,7 +102,7 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center space-x-4 md:space-x-6">
-          <a href="#" className="hidden md:block bg-accent-purple text-white hover:bg-accent-purple/90 font-medium py-2 px-5 rounded-lg text-sm transition duration-150">Log In</a>
+          <a href="#" className="hidden md:block bg-accent-purple text-black hover:bg-accent-purple/90 font-medium py-2 px-5 rounded-lg text-sm transition duration-150">Log In</a>
           <button className="lg:hidden text-white p-2" onClick={toggleMobileMenu} aria-label="Toggle mobile menu">
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -151,7 +151,7 @@ export function Navbar() {
           >
             Upcoming Events
           </a>
-          <a href="#" className="bg-accent-purple text-white hover:bg-accent-purple/90 font-medium py-2 px-5 rounded-lg text-sm text-center transition duration-150">Log In</a>
+          <a href="#" className="bg-accent-purple text-black hover:bg-accent-purple/90 font-medium py-2 px-5 rounded-lg text-sm text-center transition duration-150">Log In</a>
         </div>
       </div>
     </nav>

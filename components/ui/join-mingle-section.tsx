@@ -52,7 +52,7 @@ export function JoinMingleSection() {
               />
               <button
                 type="submit"
-                className="bg-accent-purple text-white font-semibold py-3 px-8 rounded-lg hover:bg-accent-purple/90 transition duration-300 whitespace-nowrap"
+                className="bg-accent-purple text-black font-semibold py-3 px-8 rounded-lg hover:bg-accent-purple/90 transition duration-300 whitespace-nowrap"
               >
                 Join Now
               </button>
